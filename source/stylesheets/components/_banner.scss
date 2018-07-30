@@ -1,0 +1,24 @@
+.banner{
+  height: 80vh;
+  background-size: 100% auto;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  transition: 1s;
+  &:hover{
+    background-size: 105% auto;
+    transition: 1s;
+  }
+  h1{
+    color: white;
+    font-size: 50px;
+  }
+  p{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+}
+
